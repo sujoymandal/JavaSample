@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ListenerAddedTestSuite]">
+  <listeners>
+    <listener class-name="JavaProgram8.TestNGListenerImplementedClass"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="JavaProgram8.ListenerAddedtestCases">
+        <methods>
+          <include name="test4"/>
+          <include name="test5"/>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- JavaProgram8.ListenerAddedtestCases -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [ListenerAddedTestSuite] -->
