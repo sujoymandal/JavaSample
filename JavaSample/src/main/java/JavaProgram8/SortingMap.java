@@ -21,7 +21,6 @@ public class SortingMap {
 		
 		//Sorting map based on values
 		
-		List<String> list=
 	}
 
 }
